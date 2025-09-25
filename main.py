@@ -83,10 +83,10 @@ if not os.path.isdir('database'):
 
 API_ID = "27917193"
 API_HASH = "bb368fbb6bd2c6ff589a1f1038de3046"
-admin = 6646631745
-new_password = "ko123" #التحقق بخطوتين للحسابات التي سيتم بيعها
+admin = 6848908141
+new_password = "nbaa" #التحقق بخطوتين للحسابات التي سيتم بيعها
 # Replace with your bot token
-token = "7263882191:AAGQmlRF7O39t1a5-znRJ1IOqx9PPn9z46Y"
+token = "7596646993:AAHTuUcmKAnkSgqz5GqpiOsM7pFqnAjck-o"
 client = TelegramClient('BotSession', api_id=API_ID, api_hash=API_HASH).start(bot_token=token)
 bot = client
 
@@ -1249,3 +1249,4 @@ async def count_ses(session):
         return str(a)
         
 client.run_until_disconnected()
+
